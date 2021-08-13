@@ -1,0 +1,66 @@
+body{
+    width: 1024px;
+    margin: 0 auto;
+    /*background-color: aquamarine;*/
+    border: 3px solid black;
+}
+header{
+    width: 30%;
+    margin: 5% auto 2%;
+    text-align: center;
+    border: 3px solid blue;
+}
+h1{
+    text-align: left;
+}
+section{
+    width: 100%;
+    display: inline-block;
+}
+nav{
+    text-align: right;
+}
+nav ul li{
+    text-align: right;
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    border: 1px solid red;
+}
+.story{
+    margin: 0;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    /*font-weight: bold;*/
+}
+#OurStory .story{
+    width: 19%;
+    text-align: left;
+    margin: auto;
+    border: 1px solid royalblue;
+
+}
+#Fare .story{
+    width: 49%;
+    text-align: top right;
+    border: 1px solid yellow;
+}
+#Drink .story{
+    width: 49%;
+    border: 1px solid #000;
+   
+    position: absolute;
+    width: calc(100% - 80%);
+}
+
+
+#Contact .story{
+    text-align: center;
+    width: 100%;
+    border: 1px solid green;
+
+}

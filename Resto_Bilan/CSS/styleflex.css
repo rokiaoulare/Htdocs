@@ -1,0 +1,53 @@
+
+body{
+    border: 1px solid black;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+#head h5{
+    color: red;
+   
+}
+
+ header{
+     border: 1px solid red;
+     display: flex;
+     justify-content: space-between;
+     /*list-style-type: none;*/
+     align-items: center;
+ }  
+
+
+
+/*#lien a{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #181818;
+    padding-bottom: 3px;
+    margin-right: 15px;
+
+}*/
+
+#plat{
+    display: flex;
+   
+
+}
+#plat .p1{
+    text-align: center;
+}
+#salle{
+    display: flex;
+}
+#service{
+    display: flex;
+}
+#dressage{
+    display: flex;
+}
+#gout{
+    display: flex;
+}

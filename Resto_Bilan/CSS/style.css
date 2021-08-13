@@ -1,0 +1,131 @@
+body{
+    /*font-family: "";/*type de caractere*/
+    background-color: beige;
+    border: 1px solid black;
+    width: 1024px;
+    /*height: 20;*/
+    /*width: 80%;*/
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header{
+    /*display: inline-block;*/
+    /*width: 50%;*/
+    margin: 10% auto 5%;/* haut -droite et gauche - bas*/
+    border: 1px solid black;
+    
+}
+nav{
+    text-decoration: none;
+
+
+}
+nav ul li{
+    display: inline-block;
+}
+section{
+    width: 100%;
+    display: inline-block;
+}
+footer{
+    margin: auto; 
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20%;
+    font-weight: bold;
+}
+.ph1{
+    /*text-align: left;*/
+    border: 1px solid red;
+    /*width: 593px;*/
+    height: auto;
+    display: inline-block;
+
+}
+.p1{
+    text-align: right;
+    /*border: 1px solid blue;*/
+    width: 49%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    /*padding: 1% 7% 1% 2%;*/
+}
+.p2{
+    text-align: left;
+    border: 1px solid black;
+    /*width: 541;*/
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+
+   
+}
+.ph2{
+    text-align: right;
+    border: 1px solid yellow;
+    width: ;
+    height: ;
+    display: inline-block;
+}
+.ph3{
+    text-align: left;
+    border: 1px solid turquoise;
+    width: ;
+    height: ;
+    display: inline-block;
+}
+.p3{
+    text-align: right;
+    border: 1px solid olivedrab;
+    width: ;
+    height: ;
+    display: inline-block;
+
+}
+.p4{
+    text-align: left;
+    border: 1px solid magenta;
+    width: ;
+    height: ;
+    display: inline-block;
+
+
+
+
+}
+.ph4{
+    text-align: right;
+    border: 1px solid maroon;
+    width: ;
+    height: ;
+    display: inline-block;
+
+
+
+}
+/*
+.p5{
+    text-align: right;
+    border: 1px solid sienna;
+    width: ;
+    height: ;
+    display: inline-block;
+
+
+
+}
+
+.ph5{
+    text-align: left;
+    border: 1px solid khaki;
+    width: ;
+    height: ;
+    display: inline-block;
+
+
+
+}*/

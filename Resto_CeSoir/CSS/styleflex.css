@@ -1,0 +1,185 @@
+body{
+    width: 1024px;
+    margin: 0 auto;
+    /*background-color: aquamarine;*/
+    border: 3px solid black;
+    height: auto;
+    background-color: aquamarine;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+#logo img{
+    width: 100px;
+
+}
+#logo:nth-child(2){
+    align-self: flex-end;
+}
+
+
+h1{
+    text-align: left;
+    width: 30%;
+    
+
+}
+.right h2{
+    text-align: center;
+}
+
+
+nav ul li{
+    
+    display: inline;
+    width: 50%;
+ 
+   
+}
+section{
+    width: 100%;
+    
+    background-color: white;
+
+}
+
+section#OurStory{
+
+    display: flex;
+    text-align: center;
+            
+}
+section#OurStory .right img{
+    width: 90%;
+
+
+}
+
+section#Fare{
+    display: flex;
+}
+#fare .left img{
+    width: 60%
+}
+#fare.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.graine{
+    width :50px;
+    height: 50px;
+}
+section#Drink{
+    display: flex;
+}
+.moule{
+    width: 100%;
+    height: auto;
+}
+hr{
+    width: 10%;
+}
+#Drink.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#Drink .left img{
+    width: 150px;
+
+}
+/*#Drink .right img{
+    width: 60%;
+}*/
+
+section#Contact img{
+    display: flex;
+    width: 100%;
+    
+}
+.rouge{
+    width: 10%;
+    color: red;
+}
+.p{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    height: 100%
+}
+footer .lien{
+    text-align: right;
+}
+/*
+h2{
+     
+}
+#OurSrory .story{
+    width: 100px;
+    height: 200px;
+
+}
+#OurStory .image{
+    width: 10px;
+    height: 20px;
+    margin: auto;
+
+}
+#Fare{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+
+}
+#fare .story{
+    border: 1px solid yellow;
+    width: 400px;
+    height: 300px;
+}
+#fare .image{
+    width: 10px;
+    height: 300px;
+    border: 1px solid black;
+}
+#Drink{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+
+
+}
+#Drink .story{
+    width: 800px;
+    height: 500px;
+    border: 1px solid red;
+
+}
+#Drink .image{
+    border: 1px solid blue;
+    width: 200px;
+    height: 500px;
+
+}
+#Contact .image{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid royalblue;
+
+
+}*/
